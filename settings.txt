@@ -23,11 +23,48 @@
   h5,
   h6 {
     font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 0.6em;
   }
+  
+    p,
+  li, blockquote {
+    max-width: 80ch;
+  }
+  
+    code,
+  kbd,
+  pre {
+    background: none;
+  }
+    article {
+    max-width: 100ch;
+  }
+  details {
+    max-width: 75vw;
+  }
+  
 </style>
 
-<body>
-  <main class="container">
-    <a href="https://github.com/burij/">NFPB</a> is powered by <a href="https://picocss.com/docs/containers.html">Pico CSS</a> and <a href="https://pandoc.org/">Pandoc</a>.
-  </main>
-</body>
+
+
+
+
+<br>
+<small>
+  <details>
+    <summary>
+    <a href="https://github.com/burij/">NFPB</a> is powered by <a href="https://picocss.com/docs/containers.html">Pico CSS</a> and <a href="https://pandoc.org/">Pandoc</a>. Click here for
+      more information about the privacy policy.</summary>
+    <p>
+
+
+
+Work in Progress.
+
+
+
+
+    </p>
+  </details>
+  <p>
+</small>
