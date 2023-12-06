@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+flatpak run org.gnome.Builder -p ./
+
+# git status
+# git add .
+# git commit -m "add description"
+# git push -u origin main

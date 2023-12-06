@@ -1,0 +1,65 @@
+<html data-theme="light">
+<style type="text/css" media="screen">
+  :root {
+    min-height: 100vh;
+    background: hsla(192, 53%, 88%, 1);
+    background: 
+      linear-gradient(
+        180deg, 
+        hsla(192, 53%, 88%, 1) 0%, 
+        hsla(354, 59%, 93%, 1) 100%
+      );
+      
+    background: 
+      -moz-linear-gradient(
+        180deg, 
+        hsla(192, 53%, 88%, 1) 0%, 
+        hsla(354, 59%, 93%, 1) 100%
+        );
+        
+    background: 
+      -webkit-linear-gradient(
+        180deg, 
+        hsla(192, 53%, 88%, 1) 0%, 
+        hsla(354, 59%, 93%, 1) 100%
+        );
+        
+    filter: progid: 
+      DXImageTransform.Microsoft.gradient(
+        startColorstr="#D2EBF1", endColorstr="#F8E4E6", GradientType=1
+        );
+    
+    font-size: medium;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+    
+  body {
+    max-width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+    }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 0.6em;
+    }
+  
+  p, li, blockquote {
+    max-width: 80ch;
+    }
+  
+  code, kbd, pre {
+    background: none;
+    }
+  
+  article {
+    max-width: 100ch;
+    }
+  
+  details {
+    max-width: 75vw;
+    }
+  
+</style>
+

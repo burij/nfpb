@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+A1="<!DOCTYPE html><html lang="en"><head>"
+A2="</head><body>"
+A3="</body><footer>"
+A4="</footer></html>"
+SET="meta.xml scripts.xml overlays.css"
+B="body.html"
+F="footer.xml"
+O="../index.html"
+
+
+cd src
+
+pandoc -c https://home.burij.de/css_pico.min.css content.md -o body.html
+cat <(echo "
+${A1}") ${SET} <(echo "${A2}") ${B} <(echo "${A3}") ${F} <(echo "${A4}") > ${O}
+
+cd ..
+
+
